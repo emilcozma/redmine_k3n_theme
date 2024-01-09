@@ -1,0 +1,9 @@
+# German strings go here for Rails i18n
+de:
+  label_roadmap: Phasen
+  label_version: Phase
+  label_version_new: Neue Phase
+  label_version_plural: Phasen
+  field_fixed_version: Phasen
+  label_attribute_of_fixed_version: "%{name} der Phasen"
+  label_reporting_versions: Phasen

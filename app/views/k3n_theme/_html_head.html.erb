@@ -1,0 +1,4 @@
+<% if User.current.logged? %>
+<%= stylesheet_link_tag 'k3n_theme.css', :plugin => 'k3n_theme', :media => 'all' %>
+<%= javascript_include_tag 'k3n_theme.js', :plugin => 'k3n_theme' %>
+<% end %>

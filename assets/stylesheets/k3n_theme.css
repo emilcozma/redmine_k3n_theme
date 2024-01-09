@@ -1,0 +1,81 @@
+#project_quick_jump_box{width:160px}
+
+.controller-my.action-page #content > h2 { margin-bottom:1rem; }
+.controller-my.action-page #content > .contextual form > select { margin-right:0; }
+.controller-projects.action-index #content > .contextual { float:none !important; text-align:right; }
+.controller-hrm_users.action-show #content > .contextual { float:none !important; text-align:right; }
+.controller-projects.action-index #content > .contextual > a { padding:19.5px 4.875px 0 4.875px; }
+
+.controller-my.action-account .box.tabular { }
+.controller-my.action-account .box.tabular > p { display:flex; }
+.controller-my.action-account .box.tabular > p > label { width:35%; margin-right:2%; }
+.controller-my.action-account .box.tabular > p > input[type="text"] { width:63% !important; max-width:inherit; font-size:16px; margin-right:0; }
+.controller-my.action-account .box.tabular > p > input[type="date"] { font-size:16px; margin-right:0; }
+.controller-my.action-account .box.tabular > p > select { width:63% !important; margin-right:0; }
+
+#content > .contextual > a.icon.icon-stats { line-height:2.8; }
+#content > .contextual > a.icon.icon-stats:before { content:"\f200"; font-family: Font Awesome\ 5 Free; font-weight: 900; padding-right: 5px; text-shadow: 0 2px 0 #efefef; }
+#content > .contextual + h2 + .splitcontentleft > ul { margin:0 0 1rem 0; padding:0; list-style:none; }
+#content > .contextual + h2 + .splitcontentleft > ul li { list-style:initial; margin-left:1.5rem; }
+
+div.modal form.new_email_address input[type="submit"] { padding:0 27px; }
+
+/*top menu*/
+#wrapper #top-menu .more .ul > ul { margin-left:0; padding-left:0; }
+#wrapper #top-menu .more .ul > ul > li > a { padding-top:5px; padding-bottom:5px; }
+#wrapper #top-menu .more .ul > ul > li > a:hover { background-color:#759fcf; color:#fff !important; }
+#wrapper #top-menu .more .ul ul.menu-children:before { display:none; }
+#wrapper #top-menu .more .ul ul.menu-children:after { display:none; }
+#wrapper #top-menu .more .ul li:hover ul.menu-children { margin-left:90% !important; left:0 !important; }
+#wrapper #top-menu .menu-children > li > a { padding-left:15px; }
+#wrapper #top-menu .menu-children > li > a:hover { color:#fff !important; }
+#wrapper #top-menu>ul li:hover > ul.menu-children {display:block !important}
+#wrapper #top-menu .more .ul ul.menu-children { top:auto !important; margin-top:-40px; }
+#wrapper #top-menu > ul li:hover a + ul.menu-children { left:initial !important; }
+/*header quick search*/
+#header #quick-search { display:flex; align-items: center; justify-content: center; }
+#header #quick-search input { margin-right:0; }
+#header #quick-search > * { line-height:1; margin-right:0.5rem; }
+/*form elements*/
+input[type="number"] { padding:6px; margin-right:9.75px; border:1px solid #e6eaef; }
+form div.box.tabular ul.tagit.ui-widget { border:1px solid #e6eaef; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+form div.box.tabular ul.tagit.ui-widget li.tagit-new input { font-size:1em !important; margin-left:8px; margin-bottom:0; }
+/*select2*/
+.select2-container.select2-container--default { margin-right:9.75px; }
+.select2-container.select2-container--default  .select2-selection { padding:6px 0; }
+.select2-container.select2-container--default .select2-selection--single { height:auto; border-color:#e6eaef; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.select2-container.select2-container--default .select2-selection--single .select2-selection__arrow { top:6px; }
+.select2-container--open .select2-dropdown { border-color:#e6eaef; }
+.select2-container.select2-container--default .select2-selection--single .select2-selection__rendered { font-size:1em; }
+.select2-container.select2-container--default .select2-selection--single .select2-selection__clear { color:#f00; font-size:1.4em; }
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__clear { color:#f00; font-size:1.4em; position:absolute; top:-17px; right:-8px; }
+.select2-container.select2-container--default .select2-selection--multiple { border-color:#e6eaef; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.select2-container.select2-container--default .select2-selection.select2-selection--multiple { padding:6px; }
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__rendered { padding:0; }
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-search__field { padding-left:6px; }
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__choice__remove { color:#f00; }
+.toggle-multiselect.multiple:before { content:"\f146"; color:#c00; }
+/*redmine_hrm pluging*/
+dl.query-totals { margin-top:0 !important; }
+/*user resources*/
+.user-resources.date-scale-week { display:flex; }
+.user-resources.date-scale-week .user-info-columns { margin-right:1rem; }
+/*tooltip*/
+.ui-widget-content.ui-tooltip { background:#000 !important; }
+/*issue detail page*/
+div.issue .attributes .splitcontentleft { margin-bottom:0; padding-bottom:0; }
+div.issue .attributes .splitcontentleft > div { display:flex; }
+div.issue .attributes .label { width:30%; }
+div.issue .attributes .value { width:69%; }
+div.issue .attributes .progress.attribute div.value p.percent { margin-bottom:0; }
+div.issue .attributes  table.progress { margin-top:4px; }
+/*k3n_timer on abacus office theme*/
+body.theme-Abacus #top-menu > .k3n_timer_button { min-height:36px; }
+body.theme-Abacus div.bestest_timer_dialog.ui-dialog .ui-button-text-icon-primary .ui-button-text, div.bestest_timer_dialog.ui-dialog .ui-button-text-icons .ui-button-text,
+body.theme-Abacus div.k3n_timer_dialog.ui-dialog .ui-button-text-icon-primary .ui-button-text, div.k3n_timer_dialog.ui-dialog .ui-button-text-icons .ui-button-text { padding-left:0; }
+
+/*Abacusmine theme*/
+body.theme-Abacusmine #content > .contextual a.icon-edit:not(.icon-only) { height: auto; color:#4879d4 !important; background-color:#fff !important; border: none !important; text-transform: none; padding:0 4.875px !important; line-height: initial !important; margin: 0 !important; }
+body.theme-Abacusmine #content > .contextual a.icon-edit:before { content: "\f044"; }
+body.theme-Abacusmine .ui-widget-content { z-index:20; }
+body.theme-Abacusmine .ui-widget-content li.ui-menu-item.selected, body.theme-Abacusmine .ui-widget-content li.ui-menu-item.ui-state-focus { font-weight:normal !important; }
